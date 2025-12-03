@@ -12,7 +12,7 @@ Launch the basic PyBullet GUI to visualize the DOFBOT in the scene.
 
 ```bash
 python show_dofbot_gui.py
-
+```
 
 ### 2️⃣ Interactive Slider Control
 
@@ -20,12 +20,14 @@ Run the DOFBOT with real-time joint control using GUI sliders, useful for kinema
 
 ```bash
 python show_dofbot_with_slider.py
+```
 
 ### 3️⃣ PPO Training
 Train the DOFBOT reaching policy using Proximal Policy Optimization (PPO).
 
 ```bash
 python train_dofbot_reach_ppo.py
+```
 
 Default training steps: 500,000
 
@@ -37,5 +39,5 @@ Training length and hyperparameters can be freely modified in the script
 
 ```bash
 python test_dofbot_reach_policy.py
-
+```
 
