@@ -14,6 +14,8 @@ Launch the basic PyBullet GUI to visualize the DOFBOT in the scene.
 python show_dofbot_gui.py
 ```
 
+![PyBullet GUI](DemoImages/ShowGUI.png)
+
 ### 2️⃣ Interactive Slider Control
 
 Run the DOFBOT with real-time joint control using GUI sliders, useful for kinematic inspection and debugging.
@@ -21,6 +23,8 @@ Run the DOFBOT with real-time joint control using GUI sliders, useful for kinema
 ```bash
 python show_dofbot_with_slider.py
 ```
+
+[![Slider Control Demo](DemoImages/SliderControl.png)](DemoImages/SliderControl.mp4)
 
 ### 3️⃣ PPO Training
 Train the DOFBOT reaching policy using Proximal Policy Optimization (PPO).
@@ -40,4 +44,7 @@ Training length and hyperparameters can be freely modified in the script
 ```bash
 python test_dofbot_reach_policy.py
 ```
+
+[![Policy Inference Demo](DemoImages/Infering.png)](DemoImages/Infering.mp4)
+
 
