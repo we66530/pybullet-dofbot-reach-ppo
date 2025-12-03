@@ -45,6 +45,6 @@ Training length and hyperparameters can be freely modified in the script
 python test_dofbot_reach_policy.py
 ```
 
-[![Policy Inference Demo](DemoImages/Infering.png)](DemoImages/Infering.mp4)
+[![Policy Inference Demo](DemoImages/infering.png)](DemoImages/Infering.mp4)
 
 
